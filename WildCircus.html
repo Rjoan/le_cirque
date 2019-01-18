@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta  name='viewport' content= 'width=device-width'>
+    <meta  name='description' content= 'Welcome to the website'>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Wild Circus</title>
+</head>
+
+<body>
+    <header>
+      <h1>Wild Circus</h1>
+      <nav>
+        <ul>
+            <li><a href='#performances'>Performances</a></li>
+            <li><a href='#about'>About Us</a></li>
+            <li><a href='#prices'>Prices</a></li>
+            <li><a href='#contact'>Contact</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+<div id="content_diaporama">
+  <div id="diaporama">
+  </div>
+</div>
+    <section id="section1">
+      <h2 id = "performances" class="content-visible" title="Click to see the content or hide it">Performances</h2>
+
+      <div>
+      <ul>
+        <li>
+            <h3>Laugh</h3>
+            <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+         </li>
+         <li>
+            <h3>Dream</h3>
+            <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+         </li>
+         <li>
+            <h3>Marvel at</h3>
+            <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+         </li>
+      </ul>
+
+    </div>
+    </section>
+
+    <hr/>
+
+    <section id="section2">
+      <h2 id = "about" class="content-visible" title="Click to see the content or hide it">About Us</h2>
+
+      <div>
+      <p>
+        <img src="https://images.pexels.com/photos/476/man-person-red-white.jpg?auto=compress&cs=tinysrgb&h=350" alt="clowns"/>
+        <img src="https://images.pexels.com/photos/34111/charlie-chaplin-copy-circus-white.jpg?auto=compress&cs=tinysrgb&h=350" alt="charlie-chaplin"/>
+      </p>
+      <p>
+        Wild Circus is a contemporary circus arts company that offers social circus workshops and visually captivating circus performances. We specialize in inventive live performances and the creative use of geometrical shapes to perform our circus acts.
+      </p>
+
+      <p>The founder of the company Anna Stépanoff, is social work trained and has worked as a social worker doing youth work prior to setting up the company. she sees a service gap in that children and youths are often not given the opportunities to express themselves through alternative means. Thus, Wild Circus was set up in 2014. The company has since worked with more than 2000 under-privileged children and youths from a broad spectrum of settings, residential homes, special needs schools, Normal(Technical) Stream students from mainstream schools and certain underprivileged communities overseas in asia, africa and europe.
+      </p>
+
+    </div>
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2 id = "prices" class="content-visible" title="Click to see the content or hide it">Prices</h2>
+
+      <div>
+
+      <table>
+
+        <tr>
+          <td>&nbsp;</td>
+          <td>Adult</td>
+          <td>Child under 12 years</td>
+          <td>Group</td>
+          <td>School</td>
+        </tr>
+
+        <tr>
+          <td>Weeks off Wednesday</td>
+          <td>$29</td>
+          <td>$19</td>
+          <td>$86</td>
+          <td>$110</td>
+        </tr>
+
+        <tr>
+          <td>Weekend and Wednesday</td>
+          <td>$35</td>
+          <td>$25</td>
+          <td>$100</td>
+          <td>$120</td>
+        </tr>
+
+      </table>
+        </div>
+
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2 id = "contact" class="content-visible" title="Click to see the content or hide it">Contact Us</h2>
+
+      <div>
+
+      <form  method="GET">
+
+        <fieldset>
+
+        <label for="name">Enter your name :</label>
+        <input type="text" id="name" placeholder="name" required><br>
+
+        <label for="email">Enter your email :</label>
+        <input type="email" id="email" placeholder="email" required><span id="validation-email"></span><br>
+
+        <label for="message">Enter your message :</label>
+        <textarea id="message" placeholder="message"></textarea><br><br>
+
+        <input type="submit" value="Send">
+
+      </fieldset><br/>
+
+    </form>
+
+    <div id="map"></div>
+
+    </div>
+    </section>
+
+    <footer>
+     
+      <p>Wild Circus by Joan RULLE - France-IOI: <a href="http://www.france-ioi.org/user/perso.php?sLogin=joanr" target="_blank">My profil France-IOI </a> - SoloLearn: <a href="https://www.sololearn.com/Profile/1990005" target="_blank">My profil
+SoloLearn</a> - Code pen: <a href="https://codepen.io/JoanR/pen/bxGjYv">My profil Code pen</a> - <a href="https://wildcodeschool.fr" target="_blank">Wild Code School</a> - 19/08/2018</p>
+    </footer>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQTGj77gbc9yo8Oltuy96sbedY2K7mTaE&callback=initMap"
+    async defer></script>
+    <script src="WildCircus.js"></script>
+</body>
+</html>
