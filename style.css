@@ -1,0 +1,159 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: gold;
+}
+
+h1, h2, h3, header ul li{
+  font-family: 'Amatic SC', 'cursive', serif;
+  font-weight: bold;
+}
+
+h1, h2{
+  width: 20%;
+  margin: auto;
+}
+h2{
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: green;
+}
+a:hover, h2:hover{
+  color: green;
+}
+
+.content-visible{
+  cursor: pointer;
+}
+
+/*HEADER*/
+
+header ul{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content:space-between;
+}
+header ul li{
+font-size: 2em;
+padding: 10px;
+margin: 10px 0;
+}
+
+/*DIAPORAMA*/
+
+#diaporama{
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 900px;
+  width: 64%;
+  box-shadow: 10px 5px 5px black;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+/*SECTION - 1*/
+
+#section1 ul{
+  display: flex;
+  width: 80%;
+  margin: auto;
+
+}
+#section1 ul li{
+margin: 0 20px;
+}
+#section2{
+  display: flex;
+  flex-direction: column;
+}
+#section2 p{
+  align-self: center;
+  text-align: center;
+}
+#section2 p img{
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
+}
+
+/*PRICE*/
+
+table{
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td{
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  border: 1px solid #fff;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: green;
+  color: #fff;
+}
+
+/*FORM*/
+
+form{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 1.4em;
+letter-spacing: 1px;
+}
+
+#name{
+  margin-left: 40px;
+}
+#email{
+  margin-left: 38px;
+}
+#message{
+  margin-left: 4px;
+  margin-top: 10px;
+}
+
+/*FOOTER*/
+
+footer p{
+  width: 60%;
+  margin: auto;
+}
+
+/*API GOOGLE MAP*/
+
+#map{
+  height: 800px;
+  width: 60%;
+  border-radius: 10px;
+  margin: 40px auto;
+  box-shadow: 10px 5px 5px black;
+}
+
+#contentMap{
+  height: 200px;
+  width: 150px;
+}
+
+  /*RESPONSIVE*/
+  
+@media screen and (max-width: 1280px){
+
+  header ul,#section1 ul{
+    flex-wrap: wrap;
+  }
+  #content_diaporama,#section2 p img,#map{
+    display: none;
+  }
+
+}
